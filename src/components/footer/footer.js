@@ -25,7 +25,7 @@ export default function Footer() {
             </nav>
           </Box>
           <Text sx={styles.footer.copyright}>
-            Copyright by Todas-Tech  @{new Date().getFullYear()}
+            Copyright  © {new Date().getFullYear()}  Todas-Tech
           </Text>
         </Box>
       </Container>

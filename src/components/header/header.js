@@ -27,15 +27,26 @@ export default function Header({ className }) {
             </Link>
           ))}
         </Flex>
-        <Button
-          className='doneate__btn'
+        <Link
+              activeClass='active'
+              to='contact'
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <Button
+          className='donate__btn'
           variant='secondary'
-          aria-label='Get Started'
+          aria-label='Contact Us'
+          on
         >
-          Contact Me
+          Contact Us
         </Button>
+            </Link>
+        
         <MobileDrawer />
-      </Container>{' '}
+      </Container>
     </header>
   );
 }

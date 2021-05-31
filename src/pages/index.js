@@ -13,12 +13,13 @@ import WorkFlow from '../sections/workflow';
 import Package from '../sections/package';
 import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
+import ContactForm from 'sections/contact';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="NextJS Landing Page" />
+          <SEO title="Todas-Tech" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
@@ -28,6 +29,7 @@ export default function IndexPage() {
           <Package />
           <TeamSection />
           <TestimonialCard />
+          <ContactForm />
         </Layout>
     </ThemeProvider>
   );
