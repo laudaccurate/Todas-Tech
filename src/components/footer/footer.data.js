@@ -6,7 +6,7 @@ export default {
     },
     {
       path: '/',
-      label: 'Advertise',
+      label: 'Adversite',
     },
     {
       path: '/',

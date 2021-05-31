@@ -45,7 +45,16 @@ const data = [
 
 export default function Feature() {
   return (
-   <h1>Feature</h1>
+   <section sx={{ variant: 'section.feature' }}>
+     <Container>
+       <SectionHeader slogan="Quality Features" title="Amazing Usefule Features"/>
+       <Grid sx={styles.grid}>
+         {data.map((item, i) => (
+           <FeatureCard key={item.id} src={item.imgSrc} altText={item.altText} title={item.title} text={item.text}/>
+         ))}
+       </Grid>
+     </Container>
+   </section>
   );
 }
 
