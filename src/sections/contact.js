@@ -20,7 +20,7 @@ export default function ContactForm() {
       <Container>
         <SectionHeader
           title="Contact us"
-          slogan="We look forward to working with you"
+          slogan="We look forward to working with you."
         />
         <Container sx={styles.container}>
           <Box as="form" onSubmit={(e) => e.preventDefault()}>
